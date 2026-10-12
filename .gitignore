@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv-pi
+
+# Local data and outputs (datasets live on the HF Hub, checkpoints in the Modal volume)
+data/
+outputs/
+logs/
+.DS_Store
+
+# Agent coordination
+.agents/
+
+# empty clone of the GitHub remote (this repo pushes there directly)
+actathon-depp/
+
+# Secrets (PI_API_KEY etc.)
+.env
+.env.*
+
+# pi-upload-lerobot / pi_dry_run output (MCAP shards)
+pi_lerobot_upload/
+
+# (from main, 4fafd77)
+*.json
+!pi/act-athon/cam_controls.json

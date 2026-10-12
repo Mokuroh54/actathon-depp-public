@@ -1,0 +1,11 @@
+{
+  "_comment": "Locked USB webcam controls (Logitech C270, outdoor daylight). \"*\" = every USB camera; a camview id key (e.g. usb-3-1-1-1-0) overrides single controls for that port, null = leave that control alone. Mode controls are written first automatically. Changing values mid-dataset makes episodes inconsistent: start a new batch. See docs/camera-controls.md.",
+  "*": {
+    "exposure_dynamic_framerate": 0,
+    "backlight_compensation": 0,
+    "auto_exposure": 1,
+    "exposure_time_absolute": 5,
+    "white_balance_automatic": 0,
+    "white_balance_temperature": 5000
+  }
+}
